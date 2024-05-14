@@ -107,9 +107,10 @@ const { state, saveCreds } = await useMultiFileAuthState('auth_info_baileys')
 
   // Get firebase authentication
 // Initialize Firebase
-/*
+
   const app = initializeApp(global.firebase);
 const storage = getStorage(app);
+  /*
 // Create a reference under which you want to list
 const listFoldersRef = ref(storage, 'papers');
 // Find all the prefixes and items.
