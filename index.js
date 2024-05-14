@@ -51,10 +51,7 @@ const { state, saveCreds } = await useMultiFileAuthState('auth_info_baileys')
       // console.log(JSON.stringify(chatUpadate, undefined, 2))
       let mess = chatUpadate.messages[0];
       // console.log(mess);
-      let messageconsole = mess.message.conversation;
-      // console.log(messageconsole);
-      // console.log(mess.key.remoteJid);
-      // console.log(mess.pushName);
+      
 
 
    require("./main")(sky7, messageconsole, chatUpadate, mess, storage, store);
