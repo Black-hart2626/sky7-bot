@@ -54,7 +54,7 @@ const { state, saveCreds } = await useMultiFileAuthState('auth_info_baileys')
       
 
 
-   require("./main")(sky7, messageconsole, chatUpadate, mess, storage, store);
+   require("./main")(sky7, chatUpadate, mess, storage, store);
 
 
  
