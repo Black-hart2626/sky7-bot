@@ -107,7 +107,8 @@ const { state, saveCreds } = await useMultiFileAuthState('auth_info_baileys')
 
   // Get firebase authentication
 // Initialize Firebase
-const app = initializeApp(global.firebase);
+/*
+  const app = initializeApp(global.firebase);
 const storage = getStorage(app);
 // Create a reference under which you want to list
 const listFoldersRef = ref(storage, 'papers');
@@ -156,8 +157,8 @@ listAll(listFoldersRef)
     fs.writeJson('./firebase_data/funtion_names.json', dataRef , err => {
       if (err) return console.error(err)
     })
-  }
- 
+  } 
+ */
 }
 
 connectToWhatsapp();
