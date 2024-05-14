@@ -11,7 +11,7 @@ const fs = require('fs-extra')
 module.exports = sky7 = async (sky7, messageconsole, chatUpadate, mess, storage, store) => {
 
  try {   
-    let body = messageconsole;
+    let body = mess.message.conversation
     let userNumber  = body.split('') 
     const prefi = global.prefix;
     const isCmd = body.startsWith(prefi);
