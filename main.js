@@ -8,7 +8,7 @@ const fs = require('fs-extra')
 
 
 
-module.exports = sky7 = async (sky7, messageconsole, chatUpadate, mess, storage, store) => {
+module.exports = sky7 = async (sky7, chatUpadate, mess, storage, store) => {
 
  try {   
     let body = mess.message.conversation
